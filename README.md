@@ -6,6 +6,6 @@ Starter template for Next.js apps
 
 - [x] Linting and formatting
 - [x] Lint-staged, Husky
-- [ ] Testing with Jest and React Testing Library
-- [ ] Path aliases
+- [x] Testing with Jest and React Testing Library
 - [ ] Tailwind
+- [ ] Path aliases
