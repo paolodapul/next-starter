@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Next starter</div>;
+  return <div className="text-xl">Next starter</div>;
 }
