@@ -8,4 +8,4 @@ Starter template for Next.js apps
 - [x] Lint-staged, Husky
 - [x] Testing with Jest and React Testing Library
 - [ ] Tailwind
-- [ ] Path aliases
+- [x] Path aliases
