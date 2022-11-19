@@ -9,7 +9,8 @@
     "lint": "next lint",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|json|yaml)\"",
     "format": "pnpm prettier --write",
-    "check-format": "pnpm prettier --check"
+    "check-format": "pnpm prettier --check",
+    "validate": "pnpm lint && pnpm check-format"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -23,6 +24,10 @@
     "typescript": "4.9.3"
   },
   "devDependencies": {
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*": "pnpm validate"
   }
 }
